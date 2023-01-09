@@ -1,0 +1,615 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+         nav.inline-block{
+            height: 60px;
+            background: white;
+            margin-top: -8px;
+            padding-top: 20px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            margin-left: 25%;
+            margin-right: 25%;
+            background: transparent;
+            display: flex;
+         }
+         nav.inline-block a{
+            border: 1px solid blue;
+            border-radius: 5px;
+            color:black;
+            font-family: 'Monaco';
+            font-size: 30px;
+            grid-template-columns: 6, 1fr; 
+            background-color: white;
+        }
+         .inline-block a:hover{
+            color: blue;
+         }
+         form{
+            display: inline-flex;
+            height: 35px;
+            padding-right: 4px;
+            padding-top: 0px;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-right: 5px;
+         }
+         .divimg{
+            margin-left: 5px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+         
+         }
+         .imgdiv :hover{
+            width: 150px;
+            height: 105px;
+         }
+         .antet-program{
+            display: block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 33px;
+            letter-spacing: 0.25em;
+            color: #3E3F43;
+            text-align: center;
+            margin-top: 100px;
+         }
+         .grid-gap{
+            display: grid;
+            grid-template-columns: 105px auto 90px;
+            width: 700px;
+            text-align: center;
+            margin: 10px auto 10px;
+            margin-top: 50px;
+            margin-bottom: 135px;
+            font-size: 25px;
+
+         }
+         .grid-gap div{
+            border: 1px solid springgreen;
+            border-radius: 6px;
+         }
+        .grid-text{
+         text-decoration-color: blue;
+        }
+        .buttonprincipal{
+         width: 200px;
+         height: 50px;
+         border-radius: 5px;
+         border-color: red;
+         position: relative;
+         right: 980px;
+
+        }
+        
+         .section_hom2{
+            text-align: left;
+            width: 550px;
+            height: 370px;
+            border-radius: 20px;
+            text-indent: 50px;
+            margin: 50px;
+      }
+         .box {
+            display: flex;
+            
+      }
+      
+         .box :first-child {
+            align-self: center;
+      }
+
+      .section_dep1{
+         width: 1250px;
+         height: 200px;
+         border: solid maroon;
+         border-radius: 5%;
+         margin-top: 10px;
+         margin-left: 50px;
+         margin-right: 50px;
+      }
+      .section_dep1_img{
+         width: 1250px;
+         height: 100px;
+         display: flex;
+         background-color: bisque;
+         border-radius: 5%;
+      }
+      .section_dep1_img :hover{
+         color: blue;
+
+      }
+      .divbutton{
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         border-color: transparent;
+         position: fixed;
+         bottom: 25px;
+         right: 25px;
+      }
+      .butimg{
+         border-radius: 50%;
+      }
+      .divbuttonhover :hover{
+         width: 60px;
+         height: 60px;
+      }
+      .img_dep{
+         width: 120px;
+         height: 80px;
+         margin-left: 10px;
+         margin-top: 10px;
+         border-radius: 10%;
+      }
+      h2{
+      margin-top: 25px;
+      color: lightcoral;
+      margin-left: 20%;
+      font-size: 50px;
+      margin-right: 20%;
+      }
+
+      .sectionfemei{
+         width: 1400px;
+      height: 1250px;
+         background-image: url(img/woman.jpg);
+         background-repeat: no-repeat;
+      }
+      .divfemei{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(209, 221, 45, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divfemei1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(16, 99, 223);
+         margin-bottom: 5px;
+      }
+      .divfemei2{
+         width: 1000px;
+         height: 1220px;
+         margin-top: 10px;
+         text-indent: 50px;
+      }
+      .divfemei2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+   .sectionchitara{
+      width: 1400px;
+   height: 1250px;
+   background-image: url(img/guitar.jpg);
+   background-repeat: no-repeat;
+   }
+   .divchitara{
+      width: 1000px;
+      height: 1280px;
+      background-color: rgba(0, 0, 0, 0.452);
+      border-radius: solid red 5px;
+      margin-left: 185px;
+      
+   }
+   .divchitara1{
+      width: 1000px;
+      height: 40px;
+      text-align: center;
+      font-size: 35px;
+      color: rgb(255, 255, 255);
+      margin-bottom: 5px;
+   }
+   .divchitara2{
+      width: 1000px;
+      height: 1210px;
+      margin-top: 10px;
+      text-indent: 50px;
+      color: white;
+   }
+   .divchitara2 img{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 400px;
+   }
+
+   .sectionstudiu{
+      width: 1400px;
+      height: 1250px;
+      background-image: url(img/studiu.jpg);
+      
+       background-repeat: no-repeat;
+      }
+      .divstudiu{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(0, 0, 0, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divstudiu1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(255, 255, 255);
+         margin-bottom: 5px;
+      }
+      .divstudiu2{
+         width: 1000px;
+         height: 1220px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divstudiu2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+      .sectiontineret{
+         width: auto;
+         height: 1250px;
+         background-image: url(img/young.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+         }
+         .divtineret{
+            width: 1000px;
+            height: 1280px;
+            background-color: rgba(0, 0, 0, 0.452);
+            border-radius: solid red 5px;
+            margin-left: 185px;
+            
+         }
+         .divtineret1{
+            width: 1000px;
+            height: 40px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(255, 255, 255);
+            margin-bottom: 5px;
+         }
+         .divtineret2{
+            width: 1000px;
+            height: 1220px;
+            margin-top: 10px;
+            text-indent: 50px;
+            color: white;
+         }
+         .divtineret2 img{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 400px;
+         }
+
+   .sectioncopii{
+      width: auto;
+      height: 1250px;
+      background-image: url(img/children.jpg);
+         background-repeat: no-repeat;
+      }
+      .divcopii{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(0, 0, 0, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divcopii1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(255, 255, 255);
+         margin-bottom: 5px;
+      }
+      .divcopii2{
+         width: 1000px;
+         height: 1220px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divcopii2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+      .sectionchitara{
+         width: 1400px;
+      height: 1250px;
+      background-image: url(img/guitar.jpg);
+      background-repeat: no-repeat;
+      }
+      .divchitara{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(0, 0, 0, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divchitara1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(255, 255, 255);
+         margin-bottom: 5px;
+      }
+      .divchitara2{
+         width: 1000px;
+         height: 1210px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divchitara2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+
+      .sectionold{
+         width: 1400px;
+      height: 1250px;
+      background-image: url(img/old_poor.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+      .divold{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(0, 0, 0, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divold1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(255, 255, 255);
+         margin-bottom: 5px;
+      }
+      .divold2{
+         width: 1000px;
+         height: 1210px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divold2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+      .sectionfam{
+         width: 1400px;
+      height: 1250px;
+      background-image: url(img/family.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+      .divfam{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(0, 0, 0, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divfam1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(255, 255, 255);
+         margin-bottom: 5px;
+      }
+      .divfam2{
+         width: 1000px;
+         height: 1210px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divfam2 img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+      .sectionworship{
+         width: 1400px;
+      height: 1250px;
+         background-image: url(img/worship.jpg);
+         background-repeat: no-repeat;
+      }
+      .divworship{
+         width: 1000px;
+         height: 1280px;
+         background-color: rgba(20, 20, 11, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+         
+      }
+      .divworship1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(248, 227, 41);
+         margin-bottom: 5px;
+      }
+      .divworship2{
+         width: 1000px;
+         height: 1220px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divworship img{
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 400px;
+      }
+
+      .section_dep1_construct{
+         width: 1250px;
+         height: 200px;
+         border: solid rgb(12, 77, 218);
+         margin-top: 10px;
+         margin-left: 50px;
+         margin-right: 50px;
+      }
+      .section_dep1_img_construct{
+         width: 1250px;
+         height: 100px;
+         display: flex;
+         background-color: rgba(248, 246, 97, 0.774);
+         border-radius: 5%;
+      }
+      .section_dep1_img_construct :hover{
+         color: rgb(255, 0, 0);
+
+      }
+      .sectionconstruct{
+         width: 1400px;
+         height: 1250px;
+      }
+      .divconstruct{
+         width: 1000px;
+         height: 1000px;
+         background-color: rgba(20, 20, 11, 0.452);
+         border-radius: solid red 5px;
+         margin-left: 185px;
+      }
+      .divconstruct1{
+         width: 1000px;
+         height: 40px;
+         text-align: center;
+         font-size: 35px;
+         color: rgb(248, 227, 41);
+         margin-bottom: 5px;
+      }
+      .divconstruct2{
+         width: 1000px;
+         height: 1220px;
+         margin-top: 10px;
+         text-indent: 50px;
+         color: white;
+      }
+      .divimgconstruct{
+         width: 200px;
+         height: 100px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         margin-left: 90px;
+         display: grid;
+         grid-template-columns: 150fr 150fr 150fr;
+      }
+      .sizeimg{
+         width: 250px;
+         height: auto;
+         margin: 10px;
+      }
+
+   .map{
+      margin-top: 0px;
+      display:inline;
+   }
+   .grid-gap-contacts{
+      display: grid;
+      grid-template-columns: 250px auto 100px;
+      width: 700px;
+      text-align: center;
+      margin: 10px auto 10px;
+      margin-top: 50px;
+      margin-bottom: 135px;
+      font-size: 25px;
+   }
+   .grid-gap-contacts div{
+      border: 1px solid rgb(0, 89, 148);
+      border-radius: 6px;
+   }
+   .grid-gap-contacts p{
+      margin: 30px;
+   }
+  .grid-text-contacts{
+   text-decoration-color: blue;
+
+  }
+  .imgcontacts{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin: 10px;
+}
+  .antet-contacts{
+   display: block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 33px;
+            letter-spacing: 0.25em;
+            color: #3E3F43;
+            text-align: center;
+            margin-top: 30px;
+         }
+         .mapouter{
+            margin-top: 0px;
+         }
+         .footer
+         {
+            height: 40px;
+            background: rgb(51, 179, 12);
+            margin-top: 5px;
+            padding-top:20px;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+               }
+            .socials{
+               list-style: none;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               margin: 1rem 0 3 rem 0;
+            }
+            .socials li{
+               margin: 0 10px;
+            }
+            .socials a{
+               text-decoration: none;
+               color: #fff;
+            }
+            .socials a i{
+               font-size: 1.1rem;
+               transition: color .4s ease;
+            }
+            .socials a:hover i{
+               color: #008cf0;
+            }
