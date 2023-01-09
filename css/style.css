@@ -24,6 +24,7 @@ body{
          nav.inline-block a{
             border: 1px solid blue;
             border-radius: 5px;
+            
             color:black;
             font-family: 'Monaco';
             font-size: 30px;
